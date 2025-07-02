@@ -10,5 +10,5 @@ export interface Flight {
   rep_contact: Item | null;
   timestamp: string | number;
   distributorName: string | null;
-  distributorId?: string | undefined;
+  type?: string | undefined;
 }
