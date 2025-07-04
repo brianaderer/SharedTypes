@@ -2,7 +2,7 @@ import {Item} from '../Item';
 export interface Flight {
   id: null | string;
   wines: Array<string>;
-  selectedWine: Item;
+  selectedWine: Item | null;
   name: string;
   currentVersion: null | number;
   versions: Item;
