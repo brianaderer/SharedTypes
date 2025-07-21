@@ -10,5 +10,6 @@ export interface Flight {
   rep_contact: Item | null;
   timestamp: string | number;
   distributorName: string | null;
-  type?: string | undefined;
+  flightType?: string | undefined;
+  orgId?: string | undefined | null;
 }
